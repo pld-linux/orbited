@@ -1,4 +1,5 @@
 Summary:	Orbited is an HTTP daemon that is optimized for long-lasting comet connections
+Summary(pl.UTF-8):	Orbited - demon HTTP zoptymalizowany pod kątem długotrwałych połączeń
 Name:		orbited
 Version:	0.3.0
 Release:	1
@@ -23,6 +24,13 @@ connections. It is designed to be easily integrated with new and
 existing applications. Orbited allows you to write real-time web
 applications, such as a chat room or instant messaging client, without
 using any external plugins like Flash or Java.
+
+%description -l pl.UTF-8
+Orbited to demon HTTP zoptymalizowany pod kątem długotrwałych połączeń
+"kometowych". Jest zaprojektowany z myślą o łatwej integracji z nowymi
+i istniejącymi aplikacjami. Pozwala na tworzenie aplikacji WWW
+działających w czasie rzeczywistym, takie jak chaty czy komunikatory
+bez wykorzystywania zewnętrznych wtyczek w stylu Flasha czy Javy.
 
 %prep
 %setup -q
