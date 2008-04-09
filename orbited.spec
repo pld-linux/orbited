@@ -1,12 +1,12 @@
 Summary:	Orbited is an HTTP daemon that is optimized for long-lasting comet connections
 Summary(pl.UTF-8):	Orbited - demon HTTP zoptymalizowany pod kątem długotrwałych połączeń
 Name:		orbited
-Version:	0.3.0
+Version:	0.3.2
 Release:	1
 License:	MIT
 Group:		Networking/Daemons
-Source0:	http://pypi.python.org/packages/source/o/orbited/%{name}-%{version}.zip
-# Source0-md5:	a4490711589b67a21798579b87aa615b
+Source0:	http://pypi.python.org/packages/source/o/orbited/%{name}-%{version}.tar.gz
+# Source0-md5:	967e16235756702312101076fb67f606
 URL:		http://brbx.com/orbited/index.html
 BuildRequires:	libevent-devel
 BuildRequires:	python-devel >= 1:2.5
@@ -53,6 +53,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/orbited
+%attr(755,root,root) %{_bindir}/orbited_daemonized
 %attr(755,root,root) %{_bindir}/revolved
 %{py_sitescriptdir}/orbited
 %{py_sitescriptdir}/orbited-*.egg-info
