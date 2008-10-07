@@ -2,7 +2,7 @@ Summary:	Orbited is an HTTP daemon that is optimized for long-lasting comet conn
 Summary(pl.UTF-8):	Orbited - demon HTTP zoptymalizowany pod kątem długotrwałych połączeń
 Name:		orbited
 Version:	0.3.2
-Release:	2
+Release:	3
 License:	MIT
 Group:		Networking/Daemons
 Source0:	http://pypi.python.org/packages/source/o/orbited/%{name}-%{version}.tar.gz
