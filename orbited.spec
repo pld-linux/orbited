@@ -4,7 +4,7 @@ Name:		orbited
 Version:	0.3.2
 Release:	3
 License:	MIT
-Group:		Networking/Daemons
+Group:		Networking/Daemons/HTTP
 Source0:	http://pypi.python.org/packages/source/o/orbited/%{name}-%{version}.tar.gz
 # Source0-md5:	967e16235756702312101076fb67f606
 URL:		http://brbx.com/orbited/index.html
